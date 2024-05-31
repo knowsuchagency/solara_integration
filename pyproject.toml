@@ -1,0 +1,19 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "solara_integration"
+description = "Django Channels integration for Solara"
+version = "0.1.0"
+authors = [{name = "Stephan Fitzpatrick", email = "knowsuchagency@gmail.com"}]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: Apache Software License"]
+dependencies = [
+    "django~=5.0",
+    "django-channels~=0.7",
+    "solara~=1.32",
+]
+
+[project.urls]
+Home = "https://github.com/knowsuchagency/solara_integration"
